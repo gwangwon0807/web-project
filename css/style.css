@@ -80,8 +80,8 @@ footer{
   background-color: beige;
 }
 
-/* 화면 너비  0 ~ 768px */
-@media (max-width: 768px){
+/* 화면 너비  0 ~ 1024px */
+@media (max-width: 1024px){
   header{
     width: 100%;
   }
@@ -108,4 +108,26 @@ footer{
     padding: 0;
   }
 
+}
+
+/* 화면 너비 0 ~ 768 */
+@media (max-width: 768px){
+    header {
+      display: none;
+    }
+
+    aside{
+      padding-top: 0;
+      height: 100vh;
+    }
+
+    #profile-top {
+      height: 50%;
+      width: 100%;
+    } 
+
+    #profile-bottom{
+      height: 50%;
+      width: 100%;
+    }
 }
