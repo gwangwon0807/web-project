@@ -50,14 +50,16 @@ aside{
 
 #profile-top {
   width: 100%;
-  height: 35%;
+  height: 50%;
   background-color: #75dbcd;
 }
 
 #profile-bottom{
   width: 100%;
-  height: 65%;
-  background-color: #8adbc9;
+  height: 50%;
+  background-color: #75dbcd;
+  display: flex;
+  justify-content: center;
 }
 
 #profile-top > .photo {
@@ -79,23 +81,13 @@ aside{
   font-family: fantasy;
 }
 
+#profile-bottom p{font-size: 18px;}
+
 .photo > img{
   width: 210px; height: 210px;
   border-radius: 50%;
 }
 
-.introduce{
-  width: 100%;
-  height: 20%;
-}
-
-.introduce-left
-{
-  width: 50%;
-  height: 100%;
-  padding-left: 20%;
-  float: left;
-}
 
 
 /* section */
@@ -313,14 +305,54 @@ label.right{
 
 .info h1{font-family: 'Lato', sans-serif; font-size: 40px;}
 
-/* footer */
-
-footer{
-  padding-left: 30%;
-  width: 70%;
-  height: 30px;
-  background-color: beige;
+/* section3 */
+#section3{
+  background: linear-gradient(to top, rgba(138, 219, 201, 0.5), rgba(122,213,198,0.7))
 }
+
+#section3 .goal{
+  width: 100%; 
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+#section3 .quarter{
+  width: 70%;
+  height: 80%; 
+}
+
+.quarter div {float: left;}
+
+.quarter .goalcontent{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goalcontent-left{
+  padding-right: 5%;
+  width: 35%;
+}
+
+.goalcontent-right{
+  padding-left: 5%;
+  width: 35%;
+}
+
+.quarter .quarterNum{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+}
+
+.goalcontent, .quarterNum{color: black; font-size: 18px;}
 
 /* 화면 너비  0 ~ 1024px */
 @media (max-width: 1024px){
@@ -347,6 +379,7 @@ footer{
     width: 50%;
     float: right;
     height: 100%;
+    align-items: center;
   }
 
   #profile-top > .photo {
@@ -375,6 +408,15 @@ footer{
   #section1{
     padding: 0;
   }
+  
+  .quarter .quarterNum{width: 40%;}
+  #quarter1 .goalcontent-left, #quarter3 .goalcontent-left{display: none;}
+  #quarter1 .goalcontent-right, #quarter3 .goalcontent-right{height: 100%; width: 55%; padding-left: 5%;}
+  
+  #quarter2 .goalcontent-right, #quarter4 .goalcontent-right{display: none;}
+  #quarter2 .goalcontent-left, #quarter4 .goalcontent-left{height: 100%; width: 55%; padding-right: 5%;}
+  
+  
 }
 
 /* 화면 너비 0 ~ 768 */
@@ -397,4 +439,7 @@ footer{
       height: 50%;
       width: 100%;
     }
+
+    .hobbyitem{width: 100%; height: 25%;}
+    .hobbycard{margin: 0;}
 }
