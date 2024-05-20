@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="../css/style.css">
+  <script defer src="../js/script.js"></script>
 </head>
   <body>
   <div id="wrap">
@@ -15,6 +16,12 @@
     </header>
     <aside>
       <div id="profile-top">
+        <div class="mode">
+          <input type="chheckbox" id="toggle" hidden onclick="nightmode()" value="night"> 
+          <label for="toggle" class="toggleSwitch">
+            <span class="toggleButton"></span>
+          </label>
+        </div>
         <div class="menutab">
           <input type="checkbox" id="menuicon">
           <label for="menuicon">
@@ -125,14 +132,14 @@
             <h1>__Q1__</h1>
           </div>
           <div class="goalcontent goalcontent-right">
-            <p><b>편입 준비, 학교생활 잘 적응하기</b></p>
+            <p class="goal_p"><b>편입 준비, 학교생활 잘 적응하기</b></p>
           </div>
         </div>
       </div>
       <div class="goal">
         <div class="quarter" id="quarter2">
           <div class="goalcontent goalcontent-left">
-            <p><b>1학기 성적 잘 받기, 재미있어 보이는<br>분야 관련 책 및 기술 찾아보기</b></p>
+            <p class="goal_p"><b>1학기 성적 잘 받기, 재미있어 보이는<br>분야 관련 책 및 기술 찾아보기</b></p>
           </div>
           <div class="quarterNum">
             <h1>__Q2__</h1>
@@ -147,14 +154,14 @@
             <h1>__Q3__</h1>
           </div>
           <div class="goalcontent goalcontent-right">
-            <p><b>방학 동안 웹 / 앱 등 개인 프로젝트 진행해보며 적성 찾기</b></p>
+            <p class="goal_p"><b>방학 동안 웹 / 앱 등 개인 프로젝트 진행해보며 적성 찾기</b></p>
           </div>
         </div>
       </div>
       <div class="goal">
         <div class="quarter" id="quarter4">
           <div class="goalcontent goalcontent-left">
-            <p><b>2학기 수업 집중 및 관심 분야 관련 공부 시작</b></p>
+            <p class="goal_p"><b>2학기 수업 집중 및 관심 분야 관련 공부 시작</b></p>
           </div>
           <div class="quarterNum">
             <h1>__Q4__</h1>
