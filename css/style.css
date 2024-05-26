@@ -337,7 +337,7 @@ label.right{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 2rem;
+  font-size: 4rem;
   font-family: impact, Charcoal, sans-serif;
 }
 
@@ -533,6 +533,7 @@ label.right{
     padding: 0;
   }
   
+  .slidetext{font-size: 2rem;}
   .quarter .quarterNum{width: 40%;}
   #quarter1 .goalcontent-left, #quarter3 .goalcontent-left{display: none;}
   #quarter1 .goalcontent-right, #quarter3 .goalcontent-right{height: 100%; width: 55%; padding-left: 5%;}
@@ -563,6 +564,8 @@ label.right{
       height: 50%;
       width: 100%;
     }
+
+    .slidetext{font-size: 20px;}
 
     .hobbyitem{width: 100%; height: 25%;}
     .hobbycard{margin: 0;}
