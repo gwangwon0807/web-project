@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="../css/style.css">
-  <script defer src="../js/script.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/script.js"></script>
 </head>
   <body>
   <div id="wrap">
@@ -23,10 +23,10 @@
           <input type="checkbox" id="menuicon">
           <label for="menuicon">
             <div class="menu-on">
-              <img src="../jpg/menu.png">
+              <img src="./jpg/menu.png">
             </div>
             <div class="menu-off">
-              <img src="../jpg/cancel.png">
+              <img src="./jpg/cancel.png">
             </div>
             </label>
           <div class="menubar">
@@ -40,7 +40,7 @@
           <p style="padding-top: 25px; font-weight: 500;">GW KIM</p>
         </div>
         <div class="photo">
-          <img src="../jpg/profile.jpg">
+          <img src="./jpg/profile.jpg">
         </div>
       </div>
       <div id="profile-bottom">
@@ -63,26 +63,26 @@
           <div>
             <label for="slide4" class="left"></label>
             <label for="slide2" class="right"></label>
-            <a><img src="../jpg/knu.png"></a>
+            <a><img src="./jpg/knu.png"></a>
             <P class="slidetext">KANGWON NATIONAL UNIVERSITY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COMPUTER ENGINEERING</P>
           </div>
         </li>
         <li class="slideitem">
           <label for="slide1" class="left"></label>
           <label for="slide3" class="right"></label>
-          <a><img src="../jpg/ulsan.jpg"></a>
+          <a><img src="./jpg/ulsan.jpg"></a>
           <P class="slidetext">S I N C E<br>&nbsp;&nbsp;&nbsp;2001</P>
         </li>
         <li class="slideitem">
           <label for="slide2" class="left"></label>
           <label for="slide4" class="right"></label>
-          <a><img src="../jpg/blockchain.jpg"></a>
+          <a><img src="./jpg/blockchain.jpg"></a>
           <P class="slidetext">I'm interested in Blockchain.<br></P>
         </li>
         <li class="slideitem">
           <label for="slide3" class="left"></label>
           <label for="slide1" class="right"></label>
-          <a><img src="../jpg/code.jpg"></a>
+          <a><img src="./jpg/code.jpg"></a>
           <P class="slidetext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I want to be<br>a greatest Developer</P>
         </li>
       </ul>
@@ -90,7 +90,7 @@
     <section id="section2">
       <div class="hobbyitem">
         <div class="hobbycard hobbycard-left hobbycard-top">
-          <img src="../jpg/basketball.jpg">
+          <img src="./jpg/basketball.jpg">
           <div class="info">
             <h1>BASKETBALL</h1>
           </div>
@@ -98,7 +98,7 @@
       </div>
       <div class="hobbyitem">
         <div class="hobbycard hobbycard-right hobbycard-top">
-          <img src="../jpg/guitar.jpg">
+          <img src="./jpg/guitar.jpg">
           <div class="info">
             <h1>GUITAR</h1>
           </div>
@@ -106,7 +106,7 @@
       </div>
       <div class="hobbyitem">
         <div class="hobbycard hobbycard-left hobbycard-bottom">
-          <img src="../jpg/soccer.jpg">
+          <img src="./jpg/soccer.jpg">
           <div class="info">
             <h1>SOCCER</h1>
           </div>
@@ -114,7 +114,7 @@
       </div>
       <div class="hobbyitem">
         <div class="hobbycard hobbycard-right hobbycard-bottom">
-          <img src="../jpg/travel.jpg">
+          <img src="./jpg/travel.jpg">
           <div class="info">
             <h1>TRAVEL</h1>
           </div>
